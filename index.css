@@ -1,0 +1,53 @@
+/* Write your code here. */
+body {
+  margin: 0px;
+}
+
+.bg-container {
+  background-color: #0f172a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90vh;
+}
+.heading {
+  color: white;
+}
+
+.img {
+  height: 80px;
+  width: 80px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 577px) {
+  .bg-container {
+    width: 45%;
+  }
+  .heading {
+    color: white;
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .img {
+    height: 500px;
+    width: 500px;
+  }
+  .bg-container {
+    width: 80%;
+    height: 100vh;
+  }
+}
